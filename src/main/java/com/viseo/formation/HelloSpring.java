@@ -1,9 +1,9 @@
 package com.viseo.formation;
 
-/**
- * Spring bean
- */
-public class HelloWorld {
+import org.springframework.context.annotation.Profile;
+
+@Profile("tests")
+public class HelloSpring {
 
 	private String name;
 
